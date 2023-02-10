@@ -11,6 +11,9 @@ app.get('/',(req,res)=>{
 
 app.get('/newuser',(req,res)=>{
     res.send('new user added')
+
+})
+
 app.listen(5000,()=>{
     console.log('server is running');
 })
