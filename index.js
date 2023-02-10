@@ -1,1 +1,15 @@
-console.log('my first project for git');
+
+const express=require('express');
+
+const app=express();
+
+
+app.get('/',(req,res)=>{
+    res.send('umesh is a genius.......')
+})
+
+app.listen(5000,()=>{
+    console.log('server is running');
+})
+
+ 
